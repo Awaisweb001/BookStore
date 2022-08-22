@@ -1,0 +1,74 @@
+.nav{
+          height: 7vh;
+          width: 100%;
+          background-color: whitesmoke;
+          display: flex;
+          justify-content: space-between;
+}
+.UserDiv{
+          height: 95%;
+          width: 170px;
+          display: flex;
+          justify-content: center;
+          margin-left: 8%;
+}
+.UserLog{
+          height: 100%;
+          width: 49%;
+          text-align: center;
+          font-size: 14px;
+          font-weight: 600;
+          cursor: pointer;
+          color: blue;
+}
+.UserLog:hover{
+          text-decoration: underline;
+}
+.UserName{
+          height: 100%;
+          width: 49%;
+          font-size: 14px;
+          text-align: center;
+          font-weight: 600;
+          cursor: pointer;
+          color: blue;
+}
+.PublishReader{
+          height: 97%;
+          width: 200px;
+          margin-right: 6%;
+          display: flex;
+          justify-content: space-between;
+}
+.Publish{
+          height: 100%;
+          width: 49%;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 15px;
+          background-color: rgb(51, 51, 51);
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: all .20s linear;
+}
+.Publish:hover{
+          background-color: black;
+}
+.Reader{
+          height: 100%;
+          width: 49%;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 15px;
+          background-color: rgb(51, 51, 51);
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: all .20s linear;
+}
+.Reader:hover{
+          background-color: black;
+}

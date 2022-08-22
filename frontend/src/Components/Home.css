@@ -1,0 +1,162 @@
+.Banner {
+          height: 450px;
+          width: 100%;
+          position: relative;
+          animation: Latest 30s linear infinite;
+          background-position: center;
+          background-size: cover;
+          background:linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://t3.ftcdn.net/jpg/03/48/29/16/360_F_348291651_3CXlnV4Fd3JnyWQ3GwkPrxMVrHUqq58j.jpg);
+}
+
+@keyframes Latest {
+          0% {
+                    background:linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://t3.ftcdn.net/jpg/03/48/29/16/360_F_348291651_3CXlnV4Fd3JnyWQ3GwkPrxMVrHUqq58j.jpg);
+          }
+
+          25% {
+                    background:linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://img.freepik.com/premium-photo/zhongshu-loft-bookstore-chongqing-china_1112-4730.jpg?w=2000);
+          }
+
+          50%{
+                    background:linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://png.pngtree.com/background/20211215/original/pngtree-the-background-photography-of-the-empty-bookstore-library-picture-image_1474804.jpg);
+          }
+
+          75%{
+                    background:linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://wallpaperaccess.com/full/922661.jpg);
+          }
+          100%{
+                    background:linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://t3.ftcdn.net/jpg/03/48/29/16/360_F_348291651_3CXlnV4Fd3JnyWQ3GwkPrxMVrHUqq58j.jpg);
+          }
+}
+
+.SearchMain {
+          height: 80px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+}
+
+.LogoDiv {
+          height: 100%;
+          width: 14%;
+          color: white;
+          font-size: 40px;
+          margin-left: 8%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+
+.SerachDiv {
+          height: 60%;
+          width: 53%;
+          margin-right: 8%;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+}
+
+.Search {
+          height: 70%;
+          width: 65%;
+          border-radius: 5px;
+          background-color: white;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+}
+
+.SearchInp {
+          width: 95%;
+          height: 100%;
+          border: none;
+          outline: none;
+          border-radius: 5px;
+}
+
+.fasearch {
+          font-size: 20px;
+          color: rgb(51, 51, 51);
+}
+
+.MyBasket {
+          width: 160px;
+          height: 70%;
+          border-radius: 5px;
+          font-weight: 500;
+          color: white;
+          background-color: rgb(51, 51, 51);
+          font-size: 16px;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          margin-right: 40px;
+          cursor: pointer;
+          transition: all .20s linear;
+}
+
+.MyBasket:hover {
+          background-color: black;
+}
+
+.Latest {
+          height: 200px;
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          display: flex;
+          justify-content: space-evenly;
+}
+
+.LatestDesp {
+          width: 50%;
+          height: 100%;
+          color: white;
+          padding: 10px 40px;
+}
+
+.LatestAuthor {
+          font-size: 13px;
+}
+
+.LAtestMiniDisp {
+          font-size: 14px;
+          text-align: justify;
+}
+
+.LatestBooks {
+          height: 100%;
+          width: 45%;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+}
+
+.LatetBook {
+          height: 180px;
+          width: 160px;
+          cursor: pointer;
+          overflow: hidden;
+}
+
+.Lateimg {
+          height: 100%;
+          width: 100%;
+          transition: all .20s linear;
+}
+
+.Lateimg:hover {
+          transform: scale(1.05);
+}
+.AllBooks{
+          display: flex;
+          flex-wrap: wrap;
+}
+.AllBook{
+          height: 270px;
+          width: 240px;
+          cursor: pointer;
+          overflow: hidden;
+          margin: 20px 18px;
+}

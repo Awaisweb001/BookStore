@@ -1,0 +1,18 @@
+.DashContainer{
+          height: max-content;
+          border: 1px solid;
+          width: 100%;
+          display: flex;
+}
+.DashNavUl{
+          height: max-content;
+          width: max-content;
+}
+.searchbar{
+          height: 10vh;
+          width: 100%;
+          background-color: black;
+}
+.DataDash{
+          width: 80%;
+}
